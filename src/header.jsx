@@ -11,7 +11,7 @@ function Header() {
     <div>
       <nav className="navbar">
         <div className="logo">
-          <img src="/images/userlogo.png" alt="User Logo" className="user-logo" />
+          <img src="src/assets/userlogo.png" alt="User Logo" className="user-logo" />
         </div>
         <div className="search-bar">
           <input
