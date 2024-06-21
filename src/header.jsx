@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import userlogo from './assets/userlogo.png';
 
 function Header() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -11,7 +12,7 @@ function Header() {
     <div>
       <nav className="navbar">
         <div className="logo">
-          <img src="src/assets/userlogo.png" alt="User Logo" className="user-logo" />
+          <img src={userlogo} alt="User Logo" className="user-logo" />
         </div>
         <div className="search-bar">
           <input
